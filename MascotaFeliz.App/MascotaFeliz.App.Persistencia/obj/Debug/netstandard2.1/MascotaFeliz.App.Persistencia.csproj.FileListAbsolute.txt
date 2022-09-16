@@ -10,3 +10,15 @@ C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\bin\Debug\netstandard
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CopyComplete
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.deps.json
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.dll
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\bin\Debug\netstandard2.1\MascotaFeliz.App.Dominio.pdb
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csprojAssemblyReference.cache
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.AssemblyInfoInputs.cache
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.AssemblyInfo.cs
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.csproj.CopyComplete
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.dll
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.persistencia\obj\Debug\netstandard2.1\MascotaFeliz.App.Persistencia.pdb

@@ -7,3 +7,12 @@ C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\M
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.deps.json
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfo.cs
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
+D:\GRUPO3\MisionTIC_Grupo3\MascotaFeliz.App\mascotafeliz.app.dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb

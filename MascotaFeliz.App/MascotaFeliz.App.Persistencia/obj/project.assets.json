@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ángela\\.nuget\\packages\\": {}
+    "C:\\Users\\ANTONIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj",
+      "projectUniqueName": "D:\\GRUPO3\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj",
       "projectName": "MascotaFeliz.App.Persistencia",
-      "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Ángela\\.nuget\\packages\\",
-      "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\obj\\",
+      "projectPath": "D:\\GRUPO3\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\ANTONIO\\.nuget\\packages\\",
+      "outputPath": "D:\\GRUPO3\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ángela\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ANTONIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Mascotas\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj"
+            "D:\\GRUPO3\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj": {
+              "projectPath": "D:\\GRUPO3\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj"
             }
           }
         }
