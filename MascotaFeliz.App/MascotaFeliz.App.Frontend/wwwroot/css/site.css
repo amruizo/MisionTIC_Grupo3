@@ -1,5 +1,29 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿.Fondo{
+  background-image: linear-gradient(0deg, rgba(244, 237, 237, 0.4), rgba(240, 231, 231, 0.4)), url("~img/fondo3.jpg");
+  background-size: 20rem;
+}
+
+.header{
+  background-color: #bc6c25;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.nav-menu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
 
 a.navbar-brand {
   white-space: normal;
@@ -7,7 +31,75 @@ a.navbar-brand {
   word-break: break-all;
 }
 
-/* Provide sufficient contrast against white background */
+.nav-menu-link{
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+  background-color:#bc6c25;
+  transition: 0.5s;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #4c4c4c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.testbox {
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 800px; 
+  height: 540px; 
+  -webkit-border-radius: 8px/7px; 
+  -moz-border-radius: 8px/7px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 5px #99582a;
+}
+
+.box-padre{
+  display: flex;
+  justify-content: left; 
+  align-items: center;
+}
+.text1 {
+  font-family: 'tahoma';
+  font-size: 30px;
+  color: #6f1d1b;
+}
+
+.text2 {
+  margin-left: 50px;
+  text-align: justify;
+  font-family: 'verdana';
+  font-size: 19px;
+  color: #6f1d1b;
+  width:700px;
+}
+
+.text3 {
+  width:700px;
+  color: #011627;
+  font-family: 'verdana';
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.contenedor-perrito {
+  margin-top: 150px;
+  margin-right: 2px;
+  margin-left: 100px;
+  width: 550px; 
+  height: 600px; 
+}
+
 a {
   color: #0366d6;
 }
@@ -23,9 +115,12 @@ a {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+.mascota1{
+  margin-top: 80px;
+  width: 600px; 
+  height: 350px; 
+}
 
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   font-size: 14px;
 }
@@ -51,15 +146,12 @@ button.accept-policy {
   line-height: inherit;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 .footer {
@@ -67,5 +159,5 @@ body {
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 60px; 
 }

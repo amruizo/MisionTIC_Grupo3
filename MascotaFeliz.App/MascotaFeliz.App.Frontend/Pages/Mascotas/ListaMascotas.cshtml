@@ -19,6 +19,11 @@
         <td>@mascota.Color</td>
         <td>@mascota.Especie</td>
         <td>@mascota.Raza</td>
+        <td>
+            <a class="btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
+                Detalle Mascota
+            </a>
+        </td>
         </tr>
     }
 
