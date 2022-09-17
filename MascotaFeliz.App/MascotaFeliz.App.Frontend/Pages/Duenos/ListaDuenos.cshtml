@@ -20,10 +20,16 @@
                 Detalle Dueno
             </a>
         </td>
+        <td>
+            <a class="btn btn-primary table-btn" asp-page="./EditarDuenos" asp-route-duenoId="@dueno.Id">
+                Editar Dueno
+            </a>
+        </td>
         </tr>
     }
 
 </table>
+<a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" class="btn-default">Adicionar Dueño</a>
 
 
 
