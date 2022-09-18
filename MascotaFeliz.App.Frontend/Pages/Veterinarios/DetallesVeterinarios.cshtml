@@ -1,0 +1,90 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.DetallesVeterinariosModel
+@{
+}
+
+<h1 class="titulo1">Detalles del Veterinario</h1>
+
+    <div class="Div1">
+        <div class="Div6">
+            <table class= "tabla3" >
+              <tr>
+                <th>Id:</th>
+                <td>@Model.veterinario.Id</td>
+              </tr>
+              <tr>
+                <th>Nombres:</th>
+                <td>@Model.veterinario.Nombres</td>
+              </tr>
+              <tr>
+              <tr>
+                <th>Apellidos:</th>
+                <td>@Model.veterinario.Apellidos</td>
+              </tr>
+              <tr>  
+                <th>Dirección:</th>
+                <td>@Model.veterinario.Direccion</td>
+              </tr>
+              <tr>
+                <th>Teléfono:</th>
+                <td>@Model.veterinario.Telefono</td>
+              </tr>
+              <tr>
+                <th>TarjetaProfesional:</th>
+                <td>@Model.veterinario.TarjetaProfesional</td>
+              </tr>
+            </table>
+            <div>
+                <a class="btn-add" asp-page="./ListaVeterinarios" class="btn-default">Volver</a>
+            </div>
+        </div>
+      <div class = "Div5">
+        <a >
+        </a>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="titulo1">Detalles del veterinario</h1>
+
+<table class= "tabla2" >
+  <tr class="borde2">
+    <th class="borde2">Id:</th>
+    <td class="borde2">@Model.veterinario.Id</td>
+  </tr class="borde2">
+  <tr>
+    <th>Nombres:</th>
+    <td>@Model.veterinario.Nombres</td>
+  </tr>
+  <tr>
+    <th>Dirección:</th>
+    <td>@Model.veterinario.Direccion</td>
+  </tr>
+  <tr>
+    <th>Teléfono:</th>
+    <td>@Model.veterinario.Telefono</td>
+  </tr>
+  <tr>
+    <th>Tarjeta Profesional:</th>
+    <td>@Model.veterinario.TarjetaProfesional</td>
+  </tr>
+
+</table>
+
+
+<!--a asp-page="./ListaDuenos" class="btn-default">Lista Dueños</a-->
+

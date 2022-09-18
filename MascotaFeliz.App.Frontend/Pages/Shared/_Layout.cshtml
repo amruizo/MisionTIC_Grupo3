@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mascota Feliz</title>
+    <link href="~/css/site.css" rel="stylesheet" type="text/css"/>
+</head>
+<body class="Fondo">
+    <header class="header">
+    
+      <ul class="menu">
+        <li><a class="nav-menu-link nav-link" asp-area="" asp-page="/Index">Home</a></li>
+        <li><a class="nav-menu-link nav-link" asp-area="" asp-page="/Duenos/ListaDuenos">Lista Dueños</a></li>
+        <li><a class="nav-menu-link nav-link" asp-area="" asp-page="/Mascotas/ListaMascotas">Lista Mascotas</a></li>
+        <li><a class="nav-menu-link nav-link" asp-area="" asp-page="/Veterinarios/ListaVeterinarios">Lista Veterinarios</a></li>
+      </ul>
+    
+    
+    <!--nav class="nav">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+        <a class="nav-menu-link nav-link" asp-area="" asp-page="/Index">Home</a>
+        </li>
+        <li class="nav-menu-item">
+          <a class="nav-menu-link nav-link" asp-area="" asp-page="/Duenos/ListaDuenos">Lista Dueños</a>
+        </li>
+        <li class="nav-menu-item">
+          <a class="nav-menu-link nav-link" asp-area="" asp-page="/Mascotas/ListaMascotas">Lista Mascotas</a>
+        </li>
+        <li class="nav-menu-item">
+          <a class="nav-menu-link nav-link" asp-area="" asp-page="/Veterinarios/ListaVeterinarios">Lista Veterinarios</a>
+        </li>
+      </ul>
+    </nav-->
+  </header>
+    
+    <div class="footer">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+</body>
+</html>

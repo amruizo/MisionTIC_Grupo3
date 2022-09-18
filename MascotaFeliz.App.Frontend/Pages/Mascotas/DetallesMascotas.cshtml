@@ -1,0 +1,50 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.DetallesMascotasModel
+@{
+}
+
+<h1 class="titulo1">Detalles de la Mascota</h1>
+
+    <div class="Div1">
+        <div class="Div6">
+            <table class= "tabla3" >
+              <tr>
+                <th>Id:</th>
+                <td>@Model.mascota.Id</td>
+              </tr>
+              <tr>
+                <th>Nombre:</th>
+                <td>@Model.mascota.Nombre</td>
+              </tr>
+              <tr>
+              <tr>
+                <th>Color:</th>
+                <td>@Model.mascota.Color</td>
+              </tr>
+              <tr>  
+                <th>Especie:</th>
+                <td>@Model.mascota.Especie</td>
+              </tr>
+              <tr>
+                <th>Raza:</th>
+                <td>@Model.mascota.Raza</td>
+              </tr>
+            </table>
+            <div>
+                <a class="btn-add" asp-page="./ListaMascotas" class="btn-default">Volver</a>
+            </div>
+        </div>
+      <div class = "Div5">
+        <a >
+        </a>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+

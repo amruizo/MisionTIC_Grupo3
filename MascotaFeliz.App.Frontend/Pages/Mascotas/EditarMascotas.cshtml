@@ -1,0 +1,55 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.EditarMascotasModel
+@{
+    int mascotaId = Model.mascota.Id;
+}
+
+
+<h2 class="titulo1">Agregar o Editar Mascotas</h2>
+<div class="Div1">
+    <div>
+        <form method = "post">
+            <input type ="hidden" asp-for ="mascota.Id"/>
+            <div class="Div4">
+                <table class= "tabla2" >
+                    <tr>
+                        <th>Nombre:</th>
+                        <td><input asp-for="mascota.Nombre"/></td>
+                    </tr>
+                    <tr>
+                        <th>Color:</th>
+                        <td><input asp-for="mascota.Color"/></td>
+                    </tr>
+                    <tr>
+                        <th>Especie:</th>
+                        <td><input asp-for="mascota.Especie"/></td>
+                    </tr>
+                    <tr>
+                        <th>Raza:</th>
+                        <td><input asp-for="mascota.Raza"/></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+        </form>
+    </div>
+    <div class = "Div5mascota">
+        <a >
+        </a>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
