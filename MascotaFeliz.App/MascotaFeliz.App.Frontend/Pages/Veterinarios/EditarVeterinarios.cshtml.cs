@@ -46,6 +46,7 @@ namespace MascotaFeliz.App.Frontend.Pages
             if(veterinario.Id>0)
             {
                 veterinario = _repoVeterinario.UpdateVeterinario(veterinario);
+                return RedirectToPage("./ListaMascotas");
             }
             else
             {

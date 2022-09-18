@@ -47,6 +47,7 @@ namespace MascotaFeliz.App.Frontend.Pages
             if(dueno.Id>0)
             {
                 dueno = _repoDueno.UpdateDueno(dueno);
+                return RedirectToPage("./ListaMascotas");
             }
             else
             {
