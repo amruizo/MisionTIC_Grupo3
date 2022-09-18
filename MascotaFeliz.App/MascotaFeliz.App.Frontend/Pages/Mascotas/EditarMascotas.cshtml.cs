@@ -51,6 +51,7 @@ namespace MascotaFeliz.App.Frontend.Pages
             else
             {
                 _repoMascota.AddMascota(mascota);
+                return RedirectToPage("./ListaMascotas");
             }
             return Page();
         }   

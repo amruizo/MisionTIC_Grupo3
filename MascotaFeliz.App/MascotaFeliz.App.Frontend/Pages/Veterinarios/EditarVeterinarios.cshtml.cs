@@ -50,6 +50,7 @@ namespace MascotaFeliz.App.Frontend.Pages
             else
             {
                 _repoVeterinario.AddVeterinario(veterinario);
+                return RedirectToPage("./ListaVeterinarios");
             }
             return Page();
         }   
