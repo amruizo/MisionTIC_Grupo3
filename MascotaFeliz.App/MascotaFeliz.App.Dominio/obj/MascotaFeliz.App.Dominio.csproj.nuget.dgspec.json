@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MisionTIC_Grupo3\\mascotafeliz.app\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj": {}
+    "D:\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj": {}
   },
   "projects": {
-    "D:\\MisionTIC_Grupo3\\mascotafeliz.app\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj": {
+    "D:\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MisionTIC_Grupo3\\mascotafeliz.app\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj",
+        "projectUniqueName": "D:\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj",
         "projectName": "MascotaFeliz.App.Dominio",
-        "projectPath": "D:\\MisionTIC_Grupo3\\mascotafeliz.app\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj",
+        "projectPath": "D:\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\ANTONIO\\.nuget\\packages\\",
-        "outputPath": "D:\\MisionTIC_Grupo3\\mascotafeliz.app\\mascotafeliz.app.dominio\\obj\\",
+        "outputPath": "D:\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ANTONIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
