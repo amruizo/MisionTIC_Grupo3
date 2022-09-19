@@ -1,0 +1,28 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.DetallesDuenosModel
+@{
+}
+
+<h1> Detalle del Dueño</h1>
+
+<div>
+    Nombre: @Model.dueno.Nombres
+</div>
+
+<div>
+    Apellidos: @Model.dueno.Apellidos
+</div>
+
+<div>
+    Dirección: @Model.dueno.Direccion
+</div>
+
+<div>
+    Correo: @Model.dueno.Correo
+</div>
+
+<div>
+    Teléfono: @Model.dueno.Telefono
+</div>
+
+<a asp-page ="./ListaDuenos" class="btn-default"> Lista Duenos </a>
