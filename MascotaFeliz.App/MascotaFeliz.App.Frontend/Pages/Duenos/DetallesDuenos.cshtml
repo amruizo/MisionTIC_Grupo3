@@ -3,26 +3,23 @@
 @{
 }
 
-<h1> Detalle del Dueño</h1>
-
+<h1>Detalles Dueño</h1>
+<div>
+    Id: @Model.dueno.Id
+</div>
 <div>
     Nombre: @Model.dueno.Nombres
 </div>
-
 <div>
-    Apellidos: @Model.dueno.Apellidos
+    Apellido: @Model.dueno.Apellidos
 </div>
-
 <div>
     Dirección: @Model.dueno.Direccion
 </div>
-
+<div>
+    Telefono: @Model.dueno.Telefono
+</div>
 <div>
     Correo: @Model.dueno.Correo
 </div>
-
-<div>
-    Teléfono: @Model.dueno.Telefono
-</div>
-
-<a asp-page ="./ListaDuenos" class="btn-default"> Lista Duenos </a>
+<a asp-page="./ListaDuenos" class="btn-default">Lista Dueños</a>

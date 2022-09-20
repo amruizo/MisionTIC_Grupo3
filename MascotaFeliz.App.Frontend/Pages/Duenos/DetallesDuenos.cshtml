@@ -1,0 +1,48 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.DetallesDuenosModel
+@{
+}
+
+<h1 class="titulo1">Detalles del dueño</h1>
+
+    <div class="Div1">
+        <div class="Div6">
+            <table class= "tabla3" >
+              <tr>
+                <th>Id:</th>
+                <td>@Model.dueno.Id</td>
+              </tr>
+              <tr>
+                <th>Nombres:</th>
+                <td>@Model.dueno.Nombres</td>
+              </tr>
+              <tr>
+              <tr>
+                <th>Apellidos:</th>
+                <td>@Model.dueno.Apellidos</td>
+              </tr>
+              <tr>  
+                <th>Dirección:</th>
+                <td>@Model.dueno.Direccion</td>
+              </tr>
+              <tr>
+                <th>Teléfono:</th>
+                <td>@Model.dueno.Telefono</td>
+              </tr>
+              <tr>
+                <th>Email:</th>
+                <td>@Model.dueno.Correo</td>
+              </tr>
+            </table>
+            <div>
+                <a class="btn-add" asp-page="./ListaDuenos" class="btn-default">Volver</a>
+            </div>
+        </div>
+      <div class = "Div5">
+        <a >
+        </a>
+      </div>
+
+
+    </div>
+

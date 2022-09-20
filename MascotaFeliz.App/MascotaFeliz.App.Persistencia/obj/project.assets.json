@@ -7249,8 +7249,8 @@
     },
     "MascotaFeliz.App.Dominio/1.0.0": {
       "type": "project",
-      "path": "../mascotafeliz.app.dominio/MascotaFeliz.App.Dominio.csproj",
-      "msbuildProject": "../mascotafeliz.app.dominio/MascotaFeliz.App.Dominio.csproj"
+      "path": "../MascotaFeliz.App.Dominio/MascotaFeliz.App.Dominio.csproj",
+      "msbuildProject": "../MascotaFeliz.App.Dominio/MascotaFeliz.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7268,11 +7268,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
       "projectName": "MascotaFeliz.App.Persistencia",
-      "projectPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj",
+      "projectPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\JOELI\\.nuget\\packages\\",
-      "outputPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\obj\\",
+      "outputPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JOELI\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj"
+            "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+              "projectPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
             }
           }
         }

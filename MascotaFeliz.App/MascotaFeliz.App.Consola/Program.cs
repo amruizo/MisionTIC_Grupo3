@@ -26,6 +26,7 @@ namespace MascotaFeliz.App.Consola
 
             //Métodos Dueño
             //AddDueno();
+            //EliminarDueno(3);
 
             //Metodos Veterinario 
             //AddVeterinario();
@@ -60,11 +61,11 @@ namespace MascotaFeliz.App.Consola
         {
             var veterinario = new Veterinario
             {
-                Nombres = "Alberto",
-                Apellidos = "Paredes",
-                Direccion = "Las Casas",
+                Nombres = "Maria",
+                Apellidos = "Velez",
+                Direccion = "Calle 5",
                 Telefono = "98765423",
-                TarjetaProfesional = "506070"
+                TarjetaProfesional = "506075"
             };
             _repoVeterinario.AddVeterinario(veterinario);
         }
@@ -86,7 +87,7 @@ namespace MascotaFeliz.App.Consola
         {
             var historia = new Historia
             {
-                FechaInicial = new DateTime(2020, 01, 01)
+                FechaInicial = new DateTime(2022, 04, 22)
 
             };
             _repoHistoria.AddHistoria(historia);
@@ -96,14 +97,14 @@ namespace MascotaFeliz.App.Consola
         {
             var visitaPyP = new VisitaPyP
             {
-                FechaVisita = new DateTime(2021, 02, 03),
-                Temperatura = 32, 
-                Peso = 5,
-                FrecuenciaRespiratoria = 50,
-                FrecuenciaCardiaca = 20,
-                EstadoAnimo = "Activo",
-                IdVeterinario = 1,
-                Recomendaciones = "Hacer ejercicio"
+                FechaVisita = new DateTime(2022, 11, 20),
+                Temperatura = 36f, 
+                Peso = 4f,
+                FrecuenciaRespiratoria = 55f,
+                FrecuenciaCardiaca = 30f,
+                EstadoAnimo = "Perezoso",
+                IdVeterinario = 2,
+                Recomendaciones = "Dormir"
             };
             _repoVisitaPyP.AddVisitaPyP(visitaPyP);
         }
@@ -127,5 +128,25 @@ namespace MascotaFeliz.App.Consola
             _repoMascota.DeleteMascota(idMascota);
             Console.WriteLine("Mascota Eliminada");
         }
+        private static void EliminarDueno(int idDueno)
+        {
+            _repoDueno.DeleteDueno(idDueno);
+            Console.WriteLine("Dueño Eliminado");
+        }
+
+        private static void AsignarVeterinario ()
+        {
+            var veterinario = _repoMascota.AsignarVeterinario(1,15);
+            Console.WriteLine(veterinario.Nombres + " " + veterinario.Apellidos);
+
+        }
+
+        private static void AsignarDueno ()
+        {
+            var dueno = _repoMascota.AsignarDueno(1,15);
+            Console.WriteLine(dueno.Nombres + " " + dueno.Apellidos);
+
+        }
+        
     }
 }

@@ -5722,13 +5722,13 @@
     },
     "MascotaFeliz.App.Dominio/1.0.0": {
       "type": "project",
-      "path": "../mascotafeliz.app.dominio/MascotaFeliz.App.Dominio.csproj",
-      "msbuildProject": "../mascotafeliz.app.dominio/MascotaFeliz.App.Dominio.csproj"
+      "path": "../MascotaFeliz.App.Dominio/MascotaFeliz.App.Dominio.csproj",
+      "msbuildProject": "../MascotaFeliz.App.Dominio/MascotaFeliz.App.Dominio.csproj"
     },
     "MascotaFeliz.App.Persistencia/1.0.0": {
       "type": "project",
-      "path": "../mascotafeliz.app.persistencia/MascotaFeliz.App.Persistencia.csproj",
-      "msbuildProject": "../mascotafeliz.app.persistencia/MascotaFeliz.App.Persistencia.csproj"
+      "path": "../MascotaFeliz.App.Persistencia/MascotaFeliz.App.Persistencia.csproj",
+      "msbuildProject": "../MascotaFeliz.App.Persistencia/MascotaFeliz.App.Persistencia.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5761,11 +5761,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.dominio\\MascotaFeliz.App.Dominio.csproj"
+            "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+              "projectPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
             },
-            "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj": {
-              "projectPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj"
+            "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+              "projectPath": "C:\\Mascotas\\MisionTIC_Grupo3\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
             }
           }
         }
