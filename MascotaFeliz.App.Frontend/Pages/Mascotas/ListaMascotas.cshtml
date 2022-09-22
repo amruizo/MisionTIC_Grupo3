@@ -24,7 +24,7 @@
               <td class="borde1">@mascota.Color</td>
               <td class="borde1">@mascota.Especie</td>
               <td class="borde1">@mascota.Raza</td>
-              <td class="borde1">@mascota.Dueno.Nombres</td>
+              <td class="borde1">@mascota.Dueno</td>
               <td class="borde1">@mascota.Veterinario</td>
 
               <td class="borde1">
@@ -34,17 +34,17 @@
               </td>
               <td class="borde1">
                 <a class="texto4" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id" title="Editar">
-                  <i class = "fas fa-address-book fa-lg" aria-hidden="true"></i>
+                  <i class="fas fa-edit" aria-hidden="true"></i>
                 </a>
               </td>
               <td class="borde1">
                 <a class="texto4" asp-page="./EliminarMascota" asp-route-mascotaId="@mascota.Id" title="Eliminar">
-                  <i class = "fas fa-trash" aria-hidden="true"></i>
+                  <i class="fas fa-trash" aria-hidden="true"></i>
                 </a>
               </td>
               <td class="borde1">
                 <a class="texto4" asp-page="../Historia/ListaHistoria" asp-route-mascotaId="@mascota.Id" title="Historia Clínica">
-                  <i class = "fas fa-trash" aria-hidden="true"></i>
+                  <i class="fas fa-notes-medical" aria-hidden="true"></i>
                 </a>
               </td>
             </tr>

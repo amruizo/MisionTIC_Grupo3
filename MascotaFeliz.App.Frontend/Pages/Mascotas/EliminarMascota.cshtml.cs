@@ -4,13 +4,51 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using MascotaFeliz.App.Dominio;
+using MascotaFeliz.App.Persistencia;
 
 namespace MascotaFeliz.App.Frontend.Pages
 {
     public class EliminarMascotaModel : PageModel
     {
-        public void OnGet()
+        private readonly IRepositorioMascota _repoMascota;
+        [BindProperty]
+        public Mascota mascota {get;set;}
+
+        public EliminarMascotaModel()
         {
+            this._repoMascota = new RepositorioMascota(new Persistencia.AppContext());
         }
+
+        public IActionResult OnGet(int? mascotaId)
+        {
+            if (mascotaId.HasValue)
+            {
+                mascota = _repoMascota.GetMascota(mascotaId.Value);
+            }
+            if(mascota == null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            else
+                return Page();  
+        }
+         
+        public IActionResult OnPost()
+        {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
+            if(mascota.Id>0)
+            {
+                _repoMascota.DeleteMascota(mascota.Id);
+                return RedirectToPage ("./ListaMascotas");
+                
+            }
+                    
+            return Page();
+        }   
     }
 }
+
