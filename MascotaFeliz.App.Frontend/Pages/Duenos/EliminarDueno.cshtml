@@ -1,10 +1,10 @@
 ﻿@page
-@model MascotaFeliz.App.Frontend.Pages.EditarDuenosModel
+@model MascotaFeliz.App.Frontend.Pages.EliminarDuenoModel
 @{
     int duenoId = Model.dueno.Id;
 }
 
-<h2 class="titulo1">Agregar o Editar Dueños</h2>
+<h2 class="titulo1">Eliminar Dueño</h2>
 <div class="Div1">
     <div>
         <form method = "post">
@@ -36,7 +36,7 @@
             <div>
             <table>
                 <tr>
-                <td><button type="submit" class="btn btn-primary">Guardar</button></td>
+                <td><button type="submit" class="btn btn-primary">Eliminar</button></td>
                 <td><a asp-page="./ListaDuenos" class="btn btn-primary">Volver</a></td>
                 </tr>
             </table>
@@ -49,3 +49,4 @@
     </div>
 
 </div>
+

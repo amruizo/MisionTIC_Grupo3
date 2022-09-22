@@ -12,8 +12,11 @@ namespace MascotaFeliz.App.Frontend.Pages
     public class EditarMascotasModel : PageModel
     {
         private readonly IRepositorioMascota _repoMascota;
+        
         [BindProperty]
         public Mascota mascota {get;set;}
+        
+
 
         public EditarMascotasModel()
         {

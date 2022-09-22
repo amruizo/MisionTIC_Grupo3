@@ -26,12 +26,19 @@
 
               <td class="borde1">
                 <a class = "texto4" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
+                  <i class = "fas fa-info-circle fa-lg" aria-hidden="true"></i>
                 Detalle
                 </a>
               </td>
               <td class="borde1">
                 <a class="texto4" asp-page="./EditarDuenos" asp-route-duenoId="@dueno.Id">
+                  <i class = "fas fa-address-book fa-lg" aria-hidden="true"></i>
                 Editar
+                </a>
+              </td>
+              <td class="borde1">
+                <a class="texto4" asp-page="./EliminarDueno" asp-route-duenoId="@dueno.Id">
+                Eliminar
                 </a>
               </td>
 
