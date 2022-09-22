@@ -12,7 +12,9 @@
               <th class="borde1">Apellido</th>
               <th class="borde1">Dirección</th>
               <th class="borde1">Teléfono</th>
-              <th class="borde1">Email</th><th></th><th></th>
+              <th class="borde1">Email</th>
+              <th class="borde1" colspan="3">Acciones</th>
+              
             </tr>
           </thead>
           @foreach (var dueno in Model.listaDuenos)
@@ -25,20 +27,19 @@
               <td class="borde1">@dueno.Correo</td>
 
               <td class="borde1">
-                <a class = "texto4" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
+                <a class = "texto4" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id" title="Detalles">
                   <i class = "fas fa-info-circle fa-lg" aria-hidden="true"></i>
-                Detalle
                 </a>
               </td>
               <td class="borde1">
-                <a class="texto4" asp-page="./EditarDuenos" asp-route-duenoId="@dueno.Id">
+                <a class="texto4" asp-page="./EditarDuenos" asp-route-duenoId="@dueno.Id" title="Editar">
                   <i class = "fas fa-address-book fa-lg" aria-hidden="true"></i>
-                Editar
                 </a>
               </td>
               <td class="borde1">
-                <a class="texto4" asp-page="./EliminarDueno" asp-route-duenoId="@dueno.Id">
-                Eliminar
+                <a class="texto4" asp-page="./EliminarDueno" asp-route-duenoId="@dueno.Id" title="Eliminar">
+                  <i class = "fas fa-trash" aria-hidden="true"></i>
+                
                 </a>
               </td>
 

@@ -12,7 +12,7 @@
               <th class="borde1">Color</th>
               <th class="borde1">Especie</th>
               <th class="borde1">Raza</th>
-              <th></th><th></th><th></th>
+              <th class="borde1" colspan="3">Acciones</th>
             </tr>
           </thead>
           @foreach (var mascota in Model.listaMascotas)
@@ -24,15 +24,20 @@
               <td class="borde1">@mascota.Raza</td>
 
               <td class="borde1">
-                <a class = "texto4" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
-                Detalle
+                <a class = "texto4" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id" title="Detalles">
+                  <i class = "fas fa-info-circle fa-lg" aria-hidden="true"></i>
                 </a>
               </td>
               <td class="borde1">
-                <a class="texto4" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id">
-                Editar
+                <a class="texto4" asp-page="./EditarMascotas" asp-route-mascotaId="@mascota.Id" title="Editar">
+                  <i class = "fas fa-address-book fa-lg" aria-hidden="true"></i>
                 </a>
               </td>
+              <td class="borde1">
+                <a class="texto4" asp-page="./EliminarMascota" asp-route-mascotaId="@mascota.Id" title="Eliminar">
+                  <i class = "fas fa-trash" aria-hidden="true"></i>
+                
+                </a>
 
             </tr>
           }

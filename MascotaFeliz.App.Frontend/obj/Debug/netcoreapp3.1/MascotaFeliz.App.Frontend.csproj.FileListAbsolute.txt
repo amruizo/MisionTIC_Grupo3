@@ -362,3 +362,8 @@ C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\M
 C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.pdb
 C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.genruntimeconfig.cache
 C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Duenos\EliminarDueno.cshtml.g.cs
+C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Historia\DetalleHistoria.cshtml.g.cs
+C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Historia\EditarHistoria.cshtml.g.cs
+C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Historia\EliminarHistoria.cshtml.g.cs
+C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\EliminarMascota.cshtml.g.cs
+C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EliminarVeterinario.cshtml.g.cs

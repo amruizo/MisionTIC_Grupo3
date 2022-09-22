@@ -12,7 +12,8 @@
               <th class="borde1">Apellido</th>
               <th class="borde1">Dirección</th>
               <th class="borde1">Teléfono</th>
-              <th class="borde1">Tarjeta Prodesional</th><th></th><th></th>
+              <th class="borde1">Tarjeta Prodesional</th>
+              <th class="borde1" colspan="3">Acciones</th>
             </tr>
           </thead>
           @foreach (var veterinario in Model.listaVeterinarios)
@@ -25,15 +26,20 @@
               <td class="borde1">@veterinario.TarjetaProfesional</td>
 
               <td class="borde1">
-                <a class = "texto4" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">
-                Detalle
+                <a class = "texto4" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id" title="Detalles">
+                  <i class = "fas fa-info-circle fa-lg" aria-hidden="true"></i>
                 </a>
               </td>
               <td class="borde1">
-                <a class="texto4" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id">
-                Editar
+                <a class="texto4" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id" title="Editar">
+                  <i class = "fas fa-address-book fa-lg" aria-hidden="true"></i>
                 </a>
               </td>
+              <td class="borde1">
+                <a class="texto4" asp-page="./EliminarVeterinario" asp-route-veterinarioId="@veterinario.Id" title="Eliminar">
+                  <i class = "fas fa-trash" aria-hidden="true"></i>
+                
+                </a>
 
             </tr>
           }
