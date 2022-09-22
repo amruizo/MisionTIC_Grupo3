@@ -10,6 +10,7 @@ namespace MascotaFeliz.App.Persistencia
     {
    
         private readonly AppContext _appContext;
+        public Dueno dueno {get;set;}
         
         public RepositorioMascota(AppContext appContext)
         {
@@ -34,7 +35,7 @@ namespace MascotaFeliz.App.Persistencia
 
         public IEnumerable<Mascota> GetAllMascotas()
         {
-            return _appContext.Mascotas.Include(c => c.Duenos);
+            return _appContext.Mascotas.Include("Dueno");
         }
 
         public IEnumerable<Mascota> GetMascotasPorFiltro(string filtro)
@@ -52,9 +53,23 @@ namespace MascotaFeliz.App.Persistencia
 
         public Mascota GetMascota(int idMascota)
         {
-            return _appContext.Mascotas.Include(c => c.Duenos).FirstOrDefault(d => d.Id == idMascota);
+            return _appContext.Mascotas.Include(c => c.Dueno).FirstOrDefault(d => d.Id == idMascota);
         }
         
+        public Mascota AsignarDueno (int idMascota, int? idDueno)
+        {
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+            if (mascotaEncontrado != null)
+            {
+                var duenoEncontrado =  _appContext.Duenos.FirstOrDefault(d => d.Id == idDueno);
+                if (duenoEncontrado != null)
+                {
+                    mascotaEncontrado.Dueno = duenoEncontrado;
+                    _appContext.SaveChanges();
+                }
+            }
+            return mascotaEncontrado;
+        }
         
         public Mascota UpdateMascota(Mascota mascota)
         {
@@ -65,7 +80,7 @@ namespace MascotaFeliz.App.Persistencia
                 mascotaEncontrado.Color = mascota.Color;
                 mascotaEncontrado.Especie = mascota.Especie;
                 mascotaEncontrado.Raza = mascota.Raza;
-                mascotaEncontrado.Dueno = mascota.Dueno;
+
                 //mascotaEncontrado.Veterinario = mascota.Veterinario;
                 mascotaEncontrado.Historia = mascota.Historia;
                 _appContext.SaveChanges();
@@ -73,22 +88,6 @@ namespace MascotaFeliz.App.Persistencia
             return mascotaEncontrado;
         }     
 
-        public Dueno AsignarDueno (int idMascota, int idDueno)
-        {
-            var mascotaEncontrado = _appContext.Mascota.FirstOrDefault(m => m.Id = idMascota)
-            if (mascotaEncontrado != null)
-            {
-                var duenoEncontrado =  _appContext.Dueno.FirstOrDefault(d => d.Id = idDueno);
-                if (duenoEncontrado != null)
-                {
-                    mascotaEncontrado.Dueno = duenoEncontrado;
-                    _appContext.SaveChanges();
-                }
-
-                return duenoEncontrado;
-            }
-
-            return null;
-        }
+    
     }
 }

@@ -28,6 +28,22 @@
                         <th>Raza:</th>
                         <td><input asp-for="mascota.Raza"/></td>
                     </tr>
+                    <tr>
+                        <th><label for="dueno" class="form-label mb-0">Dueno:</label></th>
+                        <td><select class="form-control" id="dueno" asp-for="mascota.Dueno.Id"
+                        name= "idDueno" aria-label="Default select example">
+                        <option value="0">Seleccione Dueño</option>
+                        @foreach (var duenos in Model.duenos)
+                        {
+                            <option value="@duenos.Id">@duenos.Nombres @duenos.Apellidos </option>
+                        }
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Veterinario:</th>
+                        <td><input asp-for="mascota.Veterinario"/></td>
+                    </tr>
                 </table>
             </div>
             <div>

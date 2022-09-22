@@ -12,7 +12,9 @@
               <th class="borde1">Color</th>
               <th class="borde1">Especie</th>
               <th class="borde1">Raza</th>
-              <th class="borde1" colspan="3">Acciones</th>
+              <th class="borde1">Dueño</th>
+              <th class="borde1">Veterinario</th>
+              <th class="borde1" colspan="4">Acciones</th>
             </tr>
           </thead>
           @foreach (var mascota in Model.listaMascotas)
@@ -22,6 +24,8 @@
               <td class="borde1">@mascota.Color</td>
               <td class="borde1">@mascota.Especie</td>
               <td class="borde1">@mascota.Raza</td>
+              <td class="borde1">@mascota.Dueno.Nombres</td>
+              <td class="borde1">@mascota.Veterinario</td>
 
               <td class="borde1">
                 <a class = "texto4" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id" title="Detalles">
@@ -36,9 +40,13 @@
               <td class="borde1">
                 <a class="texto4" asp-page="./EliminarMascota" asp-route-mascotaId="@mascota.Id" title="Eliminar">
                   <i class = "fas fa-trash" aria-hidden="true"></i>
-                
                 </a>
-
+              </td>
+              <td class="borde1">
+                <a class="texto4" asp-page="../Historia/ListaHistoria" asp-route-mascotaId="@mascota.Id" title="Historia Clínica">
+                  <i class = "fas fa-trash" aria-hidden="true"></i>
+                </a>
+              </td>
             </tr>
           }
           </table>

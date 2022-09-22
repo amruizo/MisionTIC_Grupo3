@@ -367,3 +367,4 @@ C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\R
 C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Historia\EliminarHistoria.cshtml.g.cs
 C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\EliminarMascota.cshtml.g.cs
 C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EliminarVeterinario.cshtml.g.cs
+C:\Mascotas\MisionTIC_Grupo3\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Historia\ListaHistoria.cshtml.g.cs

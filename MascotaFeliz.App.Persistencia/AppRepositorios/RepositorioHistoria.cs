@@ -34,17 +34,12 @@ namespace MascotaFeliz.App.Persistencia
 
        public IEnumerable<Historia> GetAllHistorias()
         {
-            return GetAllHistorias_();
-        }
-
-        public IEnumerable<Historia> GetAllHistorias_()
-        {
-            return _appContext.Historias;
+            return _appContext.Historias.Include(a => a.VisitasPyP);
         }
 
         public Historia GetHistoria(int idHistoria)
         {
-            return _appContext.Historias.Include(a => a.VisitaPyP).FirstOrDefault(d => d.Id == idHistoria);
+            return _appContext.Historias.Include(a => a.VisitasPyP).FirstOrDefault(d => d.Id == idHistoria);
         }
 
         public Historia UpdateHistoria(Historia historia)
@@ -53,7 +48,7 @@ namespace MascotaFeliz.App.Persistencia
             if (historiaEncontrada != null)
             {
                 historiaEncontrada.FechaInicial = historia.FechaInicial;
-                historiaEncontrada.VisitaPyP = historia.VisitaPyP;
+                historiaEncontrada.VisitasPyP = historia.VisitasPyP;
                 _appContext.SaveChanges();
             }
             return historiaEncontrada;
@@ -61,13 +56,13 @@ namespace MascotaFeliz.App.Persistencia
 
         public VisitaPyP AsignarVisita (int idHistoria, int idVisita)  
         {
-            var historiaEncontrado = _appContext.Historia.FirstOrDefault(m => m.Id = idHistoria)
+            var historiaEncontrado = _appContext.Historias.FirstOrDefault(m => m.Id == idHistoria);
             if (historiaEncontrado != null)
             {
-                var visitaEncontrado =  _appContext.Visita.FirstOrDefault(d => d.Id = idVisita);
+                var visitaEncontrado =  _appContext.VisitasPyP.FirstOrDefault(d => d.Id == idVisita);
                 if (visitaEncontrado != null)
                 {
-                    historiaEncontrado.Visita = visitaEncontrado;
+                    historiaEncontrado.VisitasPyP.Add(visitaEncontrado);
                     _appContext.SaveChanges();
                 }
 

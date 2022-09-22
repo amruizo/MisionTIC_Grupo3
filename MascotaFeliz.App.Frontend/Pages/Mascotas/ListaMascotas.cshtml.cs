@@ -31,9 +31,11 @@ namespace MascotaFeliz.App.Frontend.Pages
             listaMascotas = _repoMascota.GetAllMascotas();
         }
 
-        public void OnPost()
+        /*public void OnPost(int idMascota)
         {
-            repositorioMascota.DeleteMascota(idMascota)
-        }
+            _repoMascota.DeleteMascota(idMascota);
+            ViewData["Respuesta"]= Alerts.ShowAlert(Alert.Danger, "<span> La mascota seleccionada se eliminó.</span>");
+            Mascotas = _repoMascota.GetAllMascotas();
+        }*/
     }
 }
