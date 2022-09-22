@@ -33,12 +33,7 @@ namespace MascotaFeliz.App.Persistencia
             _appContext.SaveChanges();
         }
 
-       public IEnumerable<VisitaPyP> GetAllVisitasPyP()
-        {
-            return GetAllVisitasPyP_();
-        }
-
-        public IEnumerable<VisitaPyP> GetAllVisitasPyP_()
+        public IEnumerable<VisitaPyP> GetAllVisitasPyP()
         {
             return _appContext.VisitasPyP;
         }
