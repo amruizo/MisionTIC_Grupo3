@@ -74,6 +74,7 @@ namespace MascotaFeliz.App.Frontend.Pages
                     _repoMascota.AsignarDueno(mascota.Id,dueno.Id);
                     _repoMascota.AsignarVeterinario(mascota.Id,veterinario.Id);
                     historia = new Historia();
+                    historia.FechaInicial = DateTime.Now;
                     historia = _repoHistoria.AddHistoria(historia);
                     _repoMascota.AsignarHistoria(mascota.Id,historia.Id);
                 }

@@ -1,6 +1,29 @@
 ﻿@page
 @model MascotaFeliz.App.Frontend.Pages.ListaHistoriaModel
 @{
-    //int historiaId = Model.historia.Id;
 }
 
+<h1 class = "titulo1">Historia Clínica</h1>
+<h2 class>Fecha Inicial</h2>
+
+<table class="tabla1">
+    <thead class="thead1">
+            <tr>
+              <th class="borde1">Fecha Visita</th>
+              <th class="borde1">Temperatura</th>
+              <th class="borde1">Peso</th>
+              <th class="borde1">Frecuencia Respiratoria</th>
+              <th class="borde1">Frecuencia Cardiaca</th>
+              <th class="borde1">Estado de ánimo</th>
+              <th class="borde1">Id Veterinario</th>
+              <th class="borde1" colspan="4">Acciones</th>
+            </tr>
+    </thead>
+          
+         
+</table>
+
+
+
+
+<a class="btn-add" asp-page="./EditarMascotas" class="btn-default">Adicionar Mascota</a>

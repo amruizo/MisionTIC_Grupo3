@@ -15,15 +15,17 @@ namespace MascotaFeliz.App.Frontend.Pages
     {
         private readonly IRepositorioHistoria _repoHistoria;
 
-        public IEnumerable<Historia> listaHistorias {get;set;}
+        public Historia historia {get;set;}
 
         public ListaHistoriaModel()
         {
             this._repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
         }
-        public void OnGet()
+        public void OnGet(int idHistoria)
         {
-            listaHistorias = _repoHistoria.GetAllHistorias();
+            historia = _repoHistoria.GetHistoria(idHistoria);
+            
+            
         }
     }
 }
