@@ -29,6 +29,15 @@
                 <th>Raza:</th>
                 <td>@Model.mascota.Raza</td>
               </tr>
+              <tr>
+                <th colspan=2>Nombre Dueno:</th>
+                <td>@Model.mascota.Dueno.Nombres</td>
+                <td>@Model.mascota.Dueno.Apellidos</td>
+              </tr>
+              <tr>
+                <th>Raza:</th>
+                <td>@Model.mascota.Raza</td>
+              </tr>
             </table>
             <div>
                 <button asp-page="./ListaMascotas" class="btn-default">Volver</button>

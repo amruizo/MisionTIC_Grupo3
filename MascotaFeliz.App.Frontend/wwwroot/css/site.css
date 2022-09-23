@@ -1,7 +1,7 @@
 ﻿
 
 .Fondo{
-  font-family: Comic Sans MS Black;
+  font-family: Helvetica MS Black;
   background-image: linear-gradient(0deg, rgba(244, 237, 237, 0.4), rgba(240, 231, 231, 0.4)), url(img/fondo3.jpg);
   background-size: 20rem;
 }

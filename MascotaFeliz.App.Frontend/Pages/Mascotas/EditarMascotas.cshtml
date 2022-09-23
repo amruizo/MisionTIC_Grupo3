@@ -8,47 +8,55 @@
 <h2 class="titulo1">Agregar o Editar Mascotas</h2>
 <div class="Div1">
     <div>
-        <form method = "post">
-            <input type ="hidden" asp-for ="mascota.Id"/>
-            <div class="Div4">
-                <table class= "tabla2" >
-                    <tr>
-                        <th>Nombre:</th>
-                        <td><input asp-for="mascota.Nombre"/></td>
-                    </tr>
-                    <tr>
-                        <th>Color:</th>
-                        <td><input asp-for="mascota.Color"/></td>
-                    </tr>
-                    <tr>
-                        <th>Especie:</th>
-                        <td><input asp-for="mascota.Especie"/></td>
-                    </tr>
-                    <tr>
-                        <th>Raza:</th>
-                        <td><input asp-for="mascota.Raza"/></td>
-                    </tr>
-                    <tr>
-                        <th><label for="dueno" class="form-label mb-0">Dueno:</label></th>
-                        <td><select class="form-control" id="dueno" asp-for="mascota.Dueno.Id"
-                        name= "idDueno" aria-label="Default select example">
-                        <option value="0">Seleccione Dueño</option>
-                        @foreach (var duenos in Model.duenos)
-                        {
-                            <option value="@duenos.Id">@duenos.Nombres @duenos.Apellidos </option>
-                        }
-                        </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Veterinario:</th>
-                        <td><input asp-for="mascota.Veterinario"/></td>
-                    </tr>
-                </table>
-            </div>
-            <div>
-                <button type="submit" class="btn btn-primary">Guardar</button>
-            </div>
+        <form method="post" >
+        <div class="Div4">
+            <table class= "tabla2" >
+            <input type="hidden" asp-for = "mascota.Id" />
+            <tr>
+            
+            <label asp-for="mascota.Nombre"> Nombre: </label>
+            <input asp-for="mascota.Nombre" class="form-control" />
+            </tr>
+            <tr>
+            
+            <label asp-for="mascota.Color"> Color: </label>
+            <input asp-for="mascota.Color" class="form-control" />
+            </tr>
+            <tr>
+            
+            <label asp-for="mascota.Raza"> Raza: </label>
+            <input asp-for="mascota.Raza" class="form-control" />
+            </tr>
+            <tr>
+            
+            <label asp-for="mascota.Especie"> Especie: </label>
+            <input asp-for="mascota.Especie" class="form-control" />
+            </tr>
+
+            <tr>
+            
+            <label for="dueno">Dueño</label>
+            <select id="dueno" asp-for="mascota.Dueno.Id" name = "duenoId">
+                <option value="0">Seleccione un Dueño</option>
+                @foreach (var dueno in Model.listaDuenos)
+                {
+                    <option value="@dueno.Id">@dueno.Nombres @dueno.Apellidos</option>
+                }
+            </select>
+            </tr>
+            <tr>
+            <label for="veterinario">Veterinario</label>
+            <select id="veterinario" asp-for="mascota.Veterinario.Id" name = "veterinarioId">
+                <option value="0">Seleccione un Veterinario</option>
+                @foreach (var veterinario in Model.listaVeterinarios)
+                {
+                    <option value="@veterinario.Id">@veterinario.Nombres @veterinario.Apellidos</option>
+                }
+            </select>
+            </tr>
+            </table>
+            <button type="submit" class="btn btn-primary">Grabar</button>
+        </div>
         </form>
         <div>
             <button asp-page="./ListaMascotas" class="btn-default">Volver</button>
